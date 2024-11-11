@@ -1,19 +1,16 @@
-const fetchCandidates = async () => {
+//const fetchCandidates = async () => {
+
+
+function getCandidates() {
+    let fetchCandidates = () => {
+        // implementation
+    };
+}
+
 
     
 
-    const response = await fetch('API_URL_TO_FETCH_CANDIDATES');
-    if (response.ok) {
-        throw new Error('Network response was not ok');
-    }
-    const data = await response.json();
-    return data;
-}
-
-const handleAnswer = (isCorrect) => {
-    if (isCorrect) {
-      
-    }
+    
 
     const Quiz1 = () => {
 
@@ -22,11 +19,12 @@ const handleAnswer = (isCorrect) => {
 
 
     
+    {
 
 
-
-
+    }
 
   
+    
     }
-}
+
