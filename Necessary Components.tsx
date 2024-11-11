@@ -12,7 +12,7 @@ function getCandidates() {
 
     
 
-    const Quiz1 = () => {
+    const Quiz = () => {
 
     // Function to save user to local storage
 
