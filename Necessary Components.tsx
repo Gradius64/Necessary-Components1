@@ -15,7 +15,7 @@ const handleAnswer = (isCorrect) => {
       
     }
 
-    const Quiz = () => {
+    const Quiz1 = () => {
 
     // Function to save user to local storage
 
