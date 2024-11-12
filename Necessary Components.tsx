@@ -1,20 +1,34 @@
 //const fetchCandidates = async () => {
-
-
-function getCandidates() {
-    let fetchCandidates = () => {
-        // implementation
-    };
+// Define the props interface
+interface MyComponentProps {
+    title: string;
+    count: number;
 }
 
 
+
+// Create the functional component
+const MyComponent = ({ title, count }) => {
     
+
+
+
+
 
     
 
-    const Quiz = () => {
+    
+
+    
 
     // Function to save user to local storage
+    const user = {
+        name: "John Doe",
+        email: "john.doe@example.com",
+        age: 30
+    };
+
+    localStorage.setItem("user", JSON.stringify(user));
 
 
 
@@ -26,5 +40,5 @@ function getCandidates() {
 
   
     
-    }
-
+    
+}

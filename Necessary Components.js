@@ -4,7 +4,7 @@ function getCandidates() {
         // implementation
     };
 }
-var Quiz1 = function () {
+var Quiz = function () {
     // Function to save user to local storage
     {
     }
